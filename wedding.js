@@ -1,4 +1,5 @@
 "use strict";
+//https://heroku.com/deploy?template=https://github.com/uacs337spring2019/final-project-seanfinn
 (function(){
   window.onload = function(){
     let welcome = document.getElementById("welcome");
@@ -137,13 +138,6 @@
   }
 
 
-
-
-
-
-
-
-
   function initMap(){
     let rockypoint = {lat: 31.3268, lng: -113.5312}
     let map = new google.maps.Map(
@@ -153,30 +147,6 @@
       {position: rockypoint, map: map}
     );
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   function submitClick(){
     let form = document.getElementById("form");
@@ -208,7 +178,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "http:localhost:process.env.PORT";
+    let url = "https://seanfinnweddingapp.herokuapp.com/";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){
@@ -220,11 +190,7 @@
     form.appendChild(a);
 
   }
-
-
-
   var slideIndex = 0;
-
   function initGallery(){
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -236,8 +202,6 @@
     x[slideIndex-1].style.display = "block";
     setTimeout(initGallery, 2000); // Change image every 2 seconds
   }
-
-
   function initCountDownTimer() {
     var countDownDate = new Date("Oct 19, 2019 12:00:00").getTime();
 
@@ -268,7 +232,6 @@
     }, 1000);
 
   }
-
   function checkStatus(response){
     let feedback = document.getElementById("feedback");
 
@@ -289,7 +252,4 @@
       return Promise.reject(new Error(response.status+": "+response.statusText));
     }
   }
-
-
-
 })();
