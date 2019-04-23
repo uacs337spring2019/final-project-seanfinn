@@ -1,0 +1,27 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "main": "wedding.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "client-sessions": "^0.8.0",
+    "cookie-parser": "^1.4.4",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uacs337spring2019/final-project-seanfinn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-seanfinn/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-seanfinn#readme",
+  "description": ""
+}
