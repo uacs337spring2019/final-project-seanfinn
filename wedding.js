@@ -150,7 +150,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "http://localhost:3000";
+    let url = "https://weddingappseanfinn.herokuapp.com/";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){
