@@ -150,7 +150,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "https://weddingappseanfinn.herokuapp.com/";
+    let url = "http://weddingappseanfinn.herokuapp.com/";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){
