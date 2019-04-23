@@ -208,7 +208,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "http:localhost:3000";
+    let url = "http:localhost:process.env.PORT";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){

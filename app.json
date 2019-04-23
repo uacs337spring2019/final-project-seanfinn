@@ -1,0 +1,7 @@
+{
+  "name": "wedding.js",
+  "description": "A barebones wedding Node.js app using Express 4",
+  "repository": "https://github.com/uacs337spring2019/final-project-seanfinn.git",
+  "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+  "keywords": ["node", "express", "static","fs"]
+}

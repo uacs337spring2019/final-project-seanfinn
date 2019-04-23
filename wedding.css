@@ -167,7 +167,7 @@ button:hover:before,button:hover:after{
 body{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   margin: 0px;
-  background-image: url("link_images/background1.jpg");
+  background-image: url("background1.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
