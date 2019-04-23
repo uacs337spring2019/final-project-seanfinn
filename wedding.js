@@ -51,33 +51,6 @@
 
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   function showHide(){
     let welcome = document.getElementById("welcome");
     let ourstory = document.getElementById("ourstory");
@@ -137,7 +110,6 @@
 
   }
 
-
   function initMap(){
     let rockypoint = {lat: 31.3268, lng: -113.5312}
     let map = new google.maps.Map(
@@ -178,7 +150,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "https://seanfinnweddingapp.herokuapp.com/";
+    let url = "https://weddingappseanfinn2.herokuapp.com/";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){
