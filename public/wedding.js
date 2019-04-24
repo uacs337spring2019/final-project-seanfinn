@@ -159,7 +159,7 @@
       body : JSON.stringify(message)
     };
 
-    let url = "http://localhost:"+process.env.PORT;
+    let url = "https://weddingappseanfinn.herokuapp.com/";
     fetch(url, fetchOptions)
     .then(checkStatus)
     .then(function(responseText){
