@@ -25,7 +25,7 @@ app.use(express.static('public'));
 console.log("web service started FATCOCK");
 
 app.get('/', function(req,res){
-	res.sendFile(path.join(__dirname, 'wedding.html'));
+	res.sendFile(path.join(__dirname, 'public/wedding.html'));
 });
 
 const bodyParser= require('body-parser');
