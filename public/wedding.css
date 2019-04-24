@@ -1,6 +1,12 @@
 /*
+Sean FINN
 
-SEANFINN
+CSC337
+
+wedding.css
+
+This is the css file responsible for all the stylistic elements for
+wedding.html
 */
 
 #allcontent{
@@ -11,16 +17,9 @@ SEANFINN
   margin:auto;
   margin-bottom: 25px;
   padding-top: 50px;
-
   border:solid #A3B4CD;
   border-radius: 5px;
-  /*background-color: white;
-  border:1px solid gray;
-  box-shadow: 10px 10px 5px #aaaaaa;*/
-
-
 }
-
 #countdowntimer{
   font-size: 36pt;
   color: white;
@@ -29,7 +28,6 @@ SEANFINN
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #links>div{
@@ -37,7 +35,6 @@ SEANFINN
   flex-direction: row;
   justify-content: space-around;
 }
-
 #links >div>a>img{
   float:left;
   height:100px;
