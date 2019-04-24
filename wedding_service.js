@@ -20,7 +20,7 @@ app.use(function(req,res,next){
 	next()
 })
 app.use(express.static('public'));
-console.log("web service started");
+console.log("web service started FATCOCK");
 
 const bodyParser= require('body-parser');
 const jsonParser= bodyParser.json();
