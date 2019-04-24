@@ -1,1 +1,1 @@
-web: node wedding_service.js
+web: node index.js
