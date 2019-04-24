@@ -1,4 +1,12 @@
-//SEANFINN
+/*
+Sean Finn
+
+CSC337
+
+wedding.js
+
+This file is responsible for all the functionality of the wedding page
+*/
 (function(){
   "use strict";
   window.onload = function(){

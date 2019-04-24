@@ -3,9 +3,9 @@ Sean Finn
 
 CSC337
 
-chatit_service.js
+index.js
 
-This file is responsible for all the code to run a node server with this code.
+This file is responsible for all the code to run a node server on herokuapp.
 */
 
 "use strict";
