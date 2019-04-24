@@ -22,7 +22,7 @@ app.use(function(req,res,next){
 	next()
 })
 app.use(express.static('public'));
-console.log("web service started FATCOCK");
+console.log("web service started");
 
 app.get('/', function(req,res){
 	res.sendFile(path.join(__dirname, 'public/wedding.html'));
@@ -33,7 +33,7 @@ const jsonParser= bodyParser.json();
 console.log("who knows")
 app.post('https://seanfinntestwedding.herokuapp.com/', jsonParser, function (req, res) {
 	let content = req.body["firstname"]+":::"+req.body["lastname"]+":::"+req.body["phone"]+":::"+req.body["email"]+":::"+req.body["plusfirst"]+":::"+req.body["pluslast"]+":::"+req.body["message"]+"\n";
-	fs.appendFile("rsvp.txt", content, function(err){
+	fs.appendFile("public/rsvp.txt", content, function(err){
 		if (err){
 			return console.log(err);
 		}
