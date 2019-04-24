@@ -13,6 +13,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 app.use(express.static('public'));
+var port = process.env.PORT || 5000;
 
 app.use(function(req,res,next){
 	res.header("Access-Control-Allow-Origin", "*");
@@ -39,4 +40,6 @@ app.post('https://seanfinntestwedding.herokuapp.com/', jsonParser, function (req
 	})
 });
 
-app.listen(process.env.PORT);
+app.listen(port, function(err){
+	console.log('running server on port '+port);
+});
