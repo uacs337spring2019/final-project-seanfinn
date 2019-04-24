@@ -23,7 +23,7 @@ console.log("web service started");
 
 const bodyParser= require('body-parser');
 const jsonParser= bodyParser.json();
-app.post('http://weddingappseanfinn.herokuapp.com/', jsonParser, function (req, res) {
+app.post('/', jsonParser, function (req, res) {
 	let content = req.body["firstname"]+":::"+req.body["lastname"]+":::"+req.body["phone"]+":::"+req.body["email"]+":::"+req.body["plusfirst"]+":::"+req.body["pluslast"]+":::"+req.body["message"]+"\n";
 	fs.appendFile("rsvp.txt", content, function(err){
 		if (err){
