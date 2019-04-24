@@ -12,6 +12,7 @@ This file is responsible for all the code to run a node server with this code.
 const express = require("express");
 const app = express();
 const fs = require("fs");
+const path = require('path');
 app.use(express.static('public'));
 var port = process.env.PORT || 5000;
 
