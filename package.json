@@ -30,9 +30,10 @@
   },
 
   "keywords": [
-    "[\"node\"",
-    "\"express\"",
-    "\"static\"]"
+    "node",
+    "express",
+    "static",
+    "heroku"
   ],
 
   "author": "Sean Finn",
