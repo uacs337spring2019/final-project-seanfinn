@@ -26,8 +26,5 @@
   "homepage": "https://github.com/uacs337spring2019/final-project-seanfinn#readme",
   "url": "https://github.com/uacs337spring2019/final-project-seanfinn/issues"
 },
-  "description": "",
-  "engines": {
-    "node":"^11.13.0"
-  }
+  "description": ""
 }
