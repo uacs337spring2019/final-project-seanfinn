@@ -25,6 +25,7 @@ console.log("web service started FATCOCK");
 const bodyParser= require('body-parser');
 const jsonParser= bodyParser.json();
 app.post('wedding.html', jsonParser, function (req, res) {
+	console.log("who knows")
 	let content = req.body["firstname"]+":::"+req.body["lastname"]+":::"+req.body["phone"]+":::"+req.body["email"]+":::"+req.body["plusfirst"]+":::"+req.body["pluslast"]+":::"+req.body["message"]+"\n";
 	fs.appendFile("rsvp.txt", content, function(err){
 		if (err){
