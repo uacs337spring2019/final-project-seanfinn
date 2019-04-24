@@ -21,28 +21,6 @@ app.use(function(req,res,next){
 app.use(express.static('public'));
 console.log("web service started");
 
-app.get('/', function (req, res) {
-	res.header("Access-Control-Allow-Origin", "*");
-	let json = {};
-	let file = fs.readFileSync("messages.txt", 'utf8')
-	let lines = file.split("\n");
-	let innerList = [];
-	for (let i = 0; i < lines.length - 1; i++) {
-		let innerDict = {};
-		let splitMsg = lines[i].split(":::")
-		innerDict["firstname"] = splitMsg[0];
-		innerDict["lastname"] = splitMsg[1];
-    innerDict["phone"] = splitMsg[2];
-    innerDict["email"] = splitMsg[3];
-		innerDict["plusfirst"] = splitMsg[3];
-		innerDict["pluslast"] = splitMsg[3];
-		innerDict["message"] = splitMsg[3];
-		innerList.push(innerDict);
-	}
-	json["messages"] = innerList;
-	res.send(JSON.stringify(json));
-})
-
 const bodyParser= require('body-parser');
 const jsonParser= bodyParser.json();
 app.post('/', jsonParser, function (req, res) {
