@@ -1,3 +1,8 @@
+/*
+
+SEANFINN
+*/
+
 #allcontent{
   display: flex;
   flex-direction: column;
@@ -7,7 +12,7 @@
   margin-bottom: 25px;
   padding-top: 50px;
 
-  border:solid, #A3B4CD;
+  border:solid #A3B4CD;
   border-radius: 5px;
   /*background-color: white;
   border:1px solid gray;
@@ -39,7 +44,7 @@
   width:100px;
 }
 #header{
-  border:solid, #A3B4CD;
+  border:solid #A3B4CD;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -206,6 +211,5 @@ img{
 input{
 }
 .mySlides{
-  .display: none;
   width:100%;
 }

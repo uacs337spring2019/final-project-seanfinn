@@ -1,3 +1,7 @@
+<!--
+SEAN FINN
+-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -23,7 +27,7 @@
       <div id="maincontent">
         <div id="welcome">
           <h1>Sean and Hailey</h1>
-          <img src="link_images/background.jpg">
+          <img src="link_images/background.jpg" alt="backgroundimg">
           <h2>October 19, 2019 in Puerto Penasco, Sonora, Mexico</h2>
           <h2>Countdown to our Wedding Day!</h2>
           <div id="countdowntimer"></div>
@@ -34,7 +38,6 @@
         <div id="ourstory">
           <h2>Our Story</h2>
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-
         </div>
 
         <div id="schedule">
@@ -56,45 +59,19 @@
         </div>
 
         <div id="rpmap">
-
           <h2>Rocky Point Map</h2>
-
-
           <div id="map"></div>
-
-          <!--
-          <script type="text/javascript">
-
-            function initMap(){
-              let rockypoint = {lat: 31.3268, lng: -113.5312}
-              let map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 10, center: rockypoint}
-              );
-              let marker = new google.maps.Marker(
-                {position: rockypoint, map: map}
-              );
-            }
-
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmUtSUg9IAH85Wxj6TlrotUcTSN0rVGek&callback=initMap">
           </script>
-        -->
-          <script type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmUtSUg9IAH85Wxj6TlrotUcTSN0rVGek&callback=initMap">
-
-          </script>
-
         </div>
 
-        <div id="gallery" display="none">
+        <div id="gallery">
           <h2>Gallery</h2>
           <div>
-
-            <img class="mySlides" src="slide_images/slide1.jpg">
-            <img class="mySlides" src="slide_images/slide2.jpg">
-            <img class="mySlides" src="slide_images/slide3.jpg">
+            <img class="mySlides" src="slide_images/slide1.jpg" alt="slide1">
+            <img class="mySlides" src="slide_images/slide2.jpg" alt="slide2">
+            <img class="mySlides" src="slide_images/slide3.jpg" alt="slide2">
           </div>
-
-
-
         </div>
 
         <div id="rsvp">
@@ -132,22 +109,15 @@
         <div id="links">
           <h2>Links</h2>
           <div>
-
-            <a href="https://www.crateandbarrel.com/wedding-registry/"><img src="link_images/candb_registry.jpg" alt=""> </a>
-            <a href="https://www.target.com/gift-registry/wedding-registry"><img src="link_images/target_registry.jpg" alt=""> </a>
-            <a href="https://travel.state.gov/content/travel/en/passports.html"><img src="link_images/passport.jpg" alt=""> </a>
-            <a href="https://www.tripadvisor.com/Restaurant_Review-g153981-d2071998-Reviews-Puesta_del_Sol-Puerto_Penasco_Northern_Mexico.html"><img src="link_images/puestadelsol.jpg" alt=""> </a>
+            <a href="https://www.crateandbarrel.com/wedding-registry/"><img src="link_images/candb_registry.jpg" alt="candb_registry"> </a>
+            <a href="https://www.target.com/gift-registry/wedding-registry"><img src="link_images/target_registry.jpg" alt="target_registry"> </a>
+            <a href="https://travel.state.gov/content/travel/en/passports.html"><img src="link_images/passport.jpg" alt="passport"> </a>
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g153981-d2071998-Reviews-Puesta_del_Sol-Puerto_Penasco_Northern_Mexico.html"><img src="link_images/puestadelsol.jpg" alt="puestadelsol"> </a>
           </div>
-
-
         </div>
-
       </div>
       <div id="footer">
-
       </div>
     </div>
-
-
   </body>
 </html>
